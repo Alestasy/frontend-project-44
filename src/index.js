@@ -10,8 +10,7 @@ const gameLaunch = (gameDescription, getQA) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(gameDescription);
-  // eslint-disable-next-line no-trailing-spaces
-  
+
   for (let i = 0; i < rounds; i += 1) {
     const [question, correctAnswer] = getQA();
     console.log(`Question: ${question}`);
