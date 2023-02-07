@@ -2,6 +2,7 @@ import gameLaunch from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
+// Определение простого числа (1 не простое число!)
 const isPrime = (num) => {
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {

@@ -1,16 +1,16 @@
 #!/usr/src/env node
 import readlineSync from 'readline-sync';
 
-// Архитектура для запуска игр
 const rounds = 3;
 
 // Приветствие и описание задания
-const gameLaunch = (gameDescription, getQA) => {
+const gameLaunch = (description, getQA) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  console.log(gameDescription);
+  console.log(description);
 
+  // Проверка ответа
   for (let i = 0; i < rounds; i += 1) {
     const [question, correctAnswer] = getQA();
     console.log(`Question: ${question}`);

@@ -2,6 +2,7 @@ import gameLaunch from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
+// Механика наибольшего общего делителя
 const NOD = (numberA, numberB) => {
   if (numberB === 0) {
     return numberA;

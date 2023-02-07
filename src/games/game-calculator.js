@@ -2,9 +2,11 @@ import gameLaunch from '../index.js';
 
 const description = 'What is the result of the expression?';
 
+// Возможные действия калькулятора
 const operations = ['+', '-', '*'];
 
 const calculator = (numberA, operator, numberB) => {
+  // Механика операций
   switch (operator) {
     case '+':
       return numberA + numberB;
