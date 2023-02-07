@@ -26,7 +26,7 @@ Calculator. Arithmetic expressions that need to be calculated.
 
 - Example of a game:
 
-<a href="https://asciinema.org/a/11tpT7hsbRaML6AZMHQjUAEzr" target="_blank"><img src="https://asciinema.org/a/11tpT7hsbRaML6AZMHQjUAEzr.svg" /></a>
+<a href="https://asciinema.org/a/KSJwfMo9HM5y5kSV8K6YolMPC" target="_blank"><img src="https://asciinema.org/a/KSJwfMo9HM5y5kSV8K6YolMPC.svg" /></a>
 
 ### BRAIN-EVEN GAME
 
@@ -36,7 +36,7 @@ Definition of an even number.
 
 - Example of a game:
 
-<a href="https://asciinema.org/a/Bgb5T4aF1ouinv0za8YbJ9E0I" target="_blank"><img src="https://asciinema.org/a/Bgb5T4aF1ouinv0za8YbJ9E0I.svg" /></a>
+<a href="https://asciinema.org/a/waJ5fiYeixieXFWmCYCzJU8hE" target="_blank"><img src="https://asciinema.org/a/waJ5fiYeixieXFWmCYCzJU8hE.svg" /></a>
 
 ### BRAIN-PRIME
 
@@ -46,7 +46,7 @@ Definition of a prime number.
 
 - Example of a game:
 
-<a href="https://asciinema.org/a/0f6zJ48M4dyIwJdvZgopicjxi" target="_blank"><img src="https://asciinema.org/a/0f6zJ48M4dyIwJdvZgopicjxi.svg" /></a>
+<a href="https://asciinema.org/a/BKdn8nKvRN9HHBvl1sBiNVeYO" target="_blank"><img src="https://asciinema.org/a/BKdn8nKvRN9HHBvl1sBiNVeYO.svg" /></a>
 
 ### BRAIN-GCD
 
@@ -56,7 +56,7 @@ Determination of the greatest common divisor.
 
 - Example of a game:
 
-<a href="https://asciinema.org/a/XVCBozxybz6P3FoGP2tZGL9bn" target="_blank"><img src="https://asciinema.org/a/XVCBozxybz6P3FoGP2tZGL9bn.svg" /></a>
+<a href="https://asciinema.org/a/U0rbwtarZMq47xr74eqyQHgWZ" target="_blank"><img src="https://asciinema.org/a/U0rbwtarZMq47xr74eqyQHgWZ.svg" /></a>
 
 ### BRAIN-PROGRESSION
 
@@ -66,4 +66,4 @@ Progression. Search for missing numbers in a sequence of numbers.
 
 - Example of a game:
 
-<a href="https://asciinema.org/a/Ueyh3jmtprZFd2dokiuvuQMwb" target="_blank"><img src="https://asciinema.org/a/Ueyh3jmtprZFd2dokiuvuQMwb.svg" /></a>
+<a href="https://asciinema.org/a/9dRlYNagh0400l8vWbwi4GO7M" target="_blank"><img src="https://asciinema.org/a/9dRlYNagh0400l8vWbwi4GO7M.svg" /></a>
