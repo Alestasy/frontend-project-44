@@ -1,4 +1,5 @@
 import gameLaunch from '../index.js';
+import getRandomNumber from '../helper.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -13,7 +14,7 @@ const isPrime = (num) => {
 };
 
 const getQA = () => {
-  const num = Math.floor(Math.random() * 100);
+  const num = getRandomNumber(100);
   const question = `${num}`;
   const correctAnswer = isPrime(num) ? 'yes' : 'no';
   return [question, correctAnswer];

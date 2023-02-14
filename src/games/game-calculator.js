@@ -1,12 +1,11 @@
 import gameLaunch from '../index.js';
+import getRandomNumber from '../helper.js';
 
 const description = 'What is the result of the expression?';
 
-// Возможные действия калькулятора
 const operations = ['+', '-', '*'];
 
 const calculator = (numberA, operator, numberB) => {
-  // Механика операций
   switch (operator) {
     case '+':
       return numberA + numberB;
@@ -20,9 +19,9 @@ const calculator = (numberA, operator, numberB) => {
 };
 
 const getQA = () => {
-  const numberA = Math.floor(Math.random() * 30);
-  const numberB = Math.floor(Math.random() * 30);
-  const operator = operations[Math.floor(Math.random() * operations.length)];
+  const numberA = getRandomNumber(30);
+  const numberB = getRandomNumber(30);
+  const operator = operations[getRandomNumber(operations.length - 1)];
   const question = `${numberA} ${operator} ${numberB}`;
   const correctAnswer = calculator(numberA, operator, numberB);
   return [question, String(correctAnswer)];
